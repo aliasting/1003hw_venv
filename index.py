@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.jinja.html")
 
-@app.route("/hello_world")
-def hello_world():
-    return "<h1>Hello! World.</h1>"
+@app.route("/forest")
+def forest():
+    return "<h1>forest.</h1>"
 
